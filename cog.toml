@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: Dom Rodriguez <shymega+toybox@shymega.org.uk>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+ignore_merge_commits = false
+branch_whitelist = []
+pre_bump_hooks = []
+post_bump_hooks = []
+
+[commit_types]
+
+[changelog]
+path = "CHANGELOG.md"
+authors = []
+
+[bump_profiles]
