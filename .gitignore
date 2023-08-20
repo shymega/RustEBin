@@ -1,5 +1,5 @@
-# SPDX-FileCopyrightText: Dom Rodriguez <shymega+toybox@shymega.org.uk>
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: Dom Rodriguez <shymega+rustebin@shymega.org.uk>
+# SPDX-License-Identifier: GPL-3.0-only
 
 /target
 # Created by https://www.toptal.com/developers/gitignore/api/rust
