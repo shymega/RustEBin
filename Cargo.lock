@@ -534,11 +534,27 @@ checksum = "65991dbc3bfb586939ba1527eefdc99bc21157b6ec891f180fb1e16e2dddc7a9"
 dependencies = [
  "base64",
  "bytes",
+ "http",
+ "http-body",
+ "http-serde",
+ "query_map 0.6.0",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "aws_lambda_events"
+version = "0.11.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "771c11de66cef31b3f49f0b38f06d94f0af424f60381409fc21972ff9c8f835b"
+dependencies = [
+ "base64",
+ "bytes",
  "chrono",
  "http",
  "http-body",
  "http-serde",
- "query_map",
+ "query_map 0.7.0",
  "serde",
  "serde_json",
 ]
@@ -1409,7 +1425,7 @@ version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b15e8ab48a5d8eab3110567008caad4d191924d1470b74c5c8b802b904b5a34"
 dependencies = [
- "aws_lambda_events",
+ "aws_lambda_events 0.10.0",
  "base64",
  "bytes",
  "encoding_rs",
@@ -1930,6 +1946,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "query_map"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5eab6b8b1074ef3359a863758dae650c7c0c6027927a085b7af911c8e0bf3a15"
+dependencies = [
+ "form_urlencoded",
+ "serde",
+ "serde_derive",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2182,7 +2209,7 @@ dependencies = [
  "aws-config",
  "aws-sdk-rds",
  "aws-sdk-s3",
- "aws_lambda_events",
+ "aws_lambda_events 0.11.1",
  "chrono",
  "env_logger",
  "lambda_http",
