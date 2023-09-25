@@ -20,13 +20,14 @@
         # For `nix build` & `nix run`:
         defaultPackage = naersk'.buildPackage {
           src = ./.;
-          nativeBuildInputs = with pkgs; [ pkg-config cmake ] ;
-          buildInputs = with pkgs; [ fontconfig ];
+          nativeBuildInputs = with pkgs; [ pkg-config cmake openssl.dev ];
+          buildInputs = with pkgs; [ ];
         };
 
         # For `nix develop`:
         devShell = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [ rustc cargo ];
+          buildInputs = with pkgs; [ openssl.dev ];
         };
       }
     );
