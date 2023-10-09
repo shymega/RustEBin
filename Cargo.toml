@@ -9,7 +9,7 @@ edition = "2021"
 [dependencies]
 aws-config = "0.56.1"
 aws-sdk-rds = "0.33.0"
-aws-sdk-s3 = "0.31.2"
+aws-sdk-s3 = "0.33.0"
 aws_lambda_events = { version = "0.11.1", default-features = false, features = ["apigw", "s3"] }
 chrono = { version = "0.4.31", features = ["serde"] }
 env_logger = "0.10.0"
