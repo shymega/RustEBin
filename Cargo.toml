@@ -8,19 +8,19 @@ edition = "2021"
 
 [dependencies]
 aws-config = "0.56.1"
-aws-sdk-rds = "1.7.1"
+aws-sdk-rds = "1.10.0"
 aws-sdk-s3 = "0.34.0"
-aws_lambda_events = { version = "0.12.1", default-features = false, features = ["apigw", "s3"] }
+aws_lambda_events = { version = "0.13.0", default-features = false, features = ["apigw", "s3"] }
 chrono = { version = "0.4.31", features = ["serde"] }
 env_logger = "0.10.1"
-lambda_http = { version = "0.8.3", features = ["apigw_http"] }
-lambda_runtime = "0.8.3"
+lambda_http = { version = "0.9.0", features = ["apigw_http"] }
+lambda_runtime = "0.9.0"
 lazy_static = "1.4.0"
 log = "0.4.20"
-openssl = { version = "0.10.61", features = ["vendored"] }
+openssl = { version = "0.10.62", features = ["vendored"] }
 rocket = { version = "0.5.0", features = ["json"] }
 serde = { version = "1.0.193", features = ["derive"] }
 sqlx = { version = "0.7.3", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
 thiserror = "1.0.51"
-tokio = { version = "1.35.0", features = ["full"] }
+tokio = { version = "1.35.1", features = ["full"] }
 uuid = { version = "1.6.1", features = ["v4"] }
