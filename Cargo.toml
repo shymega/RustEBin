@@ -19,8 +19,8 @@ lazy_static = "1.4.0"
 log = "0.4.20"
 openssl = { version = "0.10.62", features = ["vendored"] }
 rocket = { version = "0.5.0", features = ["json"] }
-serde = { version = "1.0.193", features = ["derive"] }
+serde = { version = "1.0.195", features = ["derive"] }
 sqlx = { version = "0.7.3", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
-thiserror = "1.0.53"
+thiserror = "1.0.56"
 tokio = { version = "1.35.1", features = ["full"] }
 uuid = { version = "1.6.1", features = ["v4"] }
