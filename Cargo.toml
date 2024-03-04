@@ -8,7 +8,7 @@ edition = "2021"
 
 [dependencies]
 aws-config = "0.56.1"
-aws-sdk-rds = "1.18.0"
+aws-sdk-rds = "1.20.0"
 aws-sdk-s3 = "0.34.0"
 aws_lambda_events = { version = "0.15.0", default-features = false, features = ["apigw", "s3"] }
 chrono = { version = "0.4.34", features = ["serde"] }
@@ -16,7 +16,7 @@ env_logger = "0.11.2"
 lambda_http = { version = "0.10.0", features = ["apigw_http"] }
 lambda_runtime = "0.10.0"
 lazy_static = "1.4.0"
-log = "0.4.20"
+log = "0.4.21"
 openssl = { version = "0.10.64", features = ["vendored"] }
 rocket = { version = "0.5.0", features = ["json"] }
 serde = { version = "1.0.197", features = ["derive"] }
