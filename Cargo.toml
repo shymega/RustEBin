@@ -13,14 +13,14 @@ aws-sdk-s3 = "1.21.0"
 aws_lambda_events = { version = "0.15.1", default-features = false, features = ["apigw", "s3"] }
 chrono = { version = "0.4.38", features = ["serde"] }
 env_logger = "0.11.3"
-lambda_http = { version = "0.11.4", features = ["apigw_http"] }
-lambda_runtime = "0.11.2"
+lambda_http = { version = "0.12.0", features = ["apigw_http"] }
+lambda_runtime = "0.12.0"
 lazy_static = "1.5.0"
-log = "0.4.21"
+log = "0.4.22"
 openssl = { version = "0.10.64", features = ["vendored"] }
 rocket = { version = "0.5.1", features = ["json"] }
 serde = { version = "1.0.203", features = ["derive"] }
 sqlx = { version = "0.7.4", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
 thiserror = "1.0.61"
 tokio = { version = "1.38.0", features = ["full"] }
-uuid = { version = "1.9.0", features = ["v4"] }
+uuid = { version = "1.9.1", features = ["v4"] }
