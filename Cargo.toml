@@ -12,15 +12,15 @@ aws-sdk-rds = "1.25.0"
 aws-sdk-s3 = "1.21.0"
 aws_lambda_events = { version = "0.15.1", default-features = false, features = ["apigw", "s3"] }
 chrono = { version = "0.4.38", features = ["serde"] }
-env_logger = "0.11.3"
-lambda_http = { version = "0.12.0", features = ["apigw_http"] }
-lambda_runtime = "0.12.0"
+env_logger = "0.11.5"
+lambda_http = { version = "0.13.0", features = ["apigw_http"] }
+lambda_runtime = "0.13.0"
 lazy_static = "1.5.0"
 log = "0.4.22"
 openssl = { version = "0.10.66", features = ["vendored"] }
 rocket = { version = "0.5.1", features = ["json"] }
 serde = { version = "1.0.204", features = ["derive"] }
-sqlx = { version = "0.7.4", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
+sqlx = { version = "0.8.0", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
 thiserror = "1.0.63"
-tokio = { version = "1.38.1", features = ["full"] }
+tokio = { version = "1.39.2", features = ["full"] }
 uuid = { version = "1.10.0", features = ["v4"] }
