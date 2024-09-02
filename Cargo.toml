@@ -22,5 +22,5 @@ rocket = { version = "0.5.1", features = ["json"] }
 serde = { version = "1.0.209", features = ["derive"] }
 sqlx = { version = "0.8.1", features = ["postgres", "uuid", "runtime-tokio-rustls"] }
 thiserror = "1.0.63"
-tokio = { version = "1.39.3", features = ["full"] }
+tokio = { version = "1.40.0", features = ["full"] }
 uuid = { version = "1.10.0", features = ["v4"] }
